@@ -15,7 +15,18 @@ public class PruebaRepositorio {
      */
     public static void main(String[] args) {
         // TODO code application logic gihere
-        System.out.println("Hola mundo");
+        int num = 201;
+        System.out.println( catering(num));
     }
-    
+
+    private static int catering(int num) {
+        if (num > 200) {
+            return 50;
+        } else if (num > 100) {
+            return 75;
+        } else {
+            return 95;
+        }
+    }
+
 }
